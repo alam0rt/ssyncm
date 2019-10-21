@@ -1,0 +1,7 @@
+apiVersion: ssm.aws.afterpaytouch.dev/v1alpha1
+kind: SsmSync
+metadata:
+  name: ssmsync-sample
+spec:
+  # Add fields here
+  foo: bar

@@ -1,0 +1,7 @@
+version: "2"
+domain: aws.afterpaytouch.dev
+repo: github.com/alam0rt/ssyncm
+resources:
+- group: ssm
+  version: v1alpha1
+  kind: SsmSync
