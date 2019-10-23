@@ -72,19 +72,19 @@ type SsmSyncStatus struct {
 	Active []corev1.ObjectReference
 
 	// +optional
-	Reason *string `json:"reason,omitempty" description: "cause for last sync"`
+	Reason *string `json:"reason,omitempty"`
 
 	// +optional
-	ParameterVersion *int64 `json:"parameterVersion,omitempty" description: "the version of the parameter stored in SSM"`
+	ParameterVersion *int64 `json:"parameterVersion,omitempty"`
 
 	// Information about when the last time the Secret was checked.
 	// +optional
-	LastCheckTime *metav1.Time `json:"lastCheckTime,omitempty`
+	LastCheckTime *metav1.Time `json:"lastCheckTime,omitempty"`
 
 	// Information when was the last time the Secret was synced to
 	// or from.
 	// +optional
-	LastSyncTime *metav1.Time `json:"lastSyncTime,omitempty`
+	LastSyncTime *metav1.Time `json:"lastSyncTime,omitempty"`
 }
 
 // +kubebuilder:object:root=true
