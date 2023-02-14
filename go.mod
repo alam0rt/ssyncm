@@ -3,7 +3,7 @@ module github.com/alam0rt/ssyncm
 go 1.12
 
 require (
-	github.com/aws/aws-sdk-go v1.25.17 // indirect
+	github.com/aws/aws-sdk-go v1.34.0
 	github.com/go-logr/logr v0.1.0
 	github.com/onsi/ginkgo v1.6.0
 	github.com/onsi/gomega v1.4.2
